@@ -1,9 +1,9 @@
-title {
-  background-color: gray;
+#name {
+  background-color: black;
   color: white;
   padding: 10px;
-  border: 1px solid grey;
   margin: 0 auto;
+  text-align: center;
 }
 
 head {
@@ -12,51 +12,61 @@ head {
 
 body {
   margin: 0 auto;
+  text-align: center;
 }
 
 #main_header {
   text-align: center;
 }
 
-#name {
-  background-color: gray;
-  text-align: center;
+p {
+  text-align: left;
 }
 
 tr {
   margin: 0 auto;
-  background-color: white;
-  color: black;
+  background-color: black;
+  color: white;
   padding: 10px;
   border: 1px solid black;
 }
 
-body {background-color: grey;
-margin: 0 auto;}
+body {
+  background-color: black;
+  margin: 0 auto;
+}
 
 
 h1 {
   color: white;
 }
 
-li a:hover {
-  background-color: pink;
+h2 {
+  color: black;
+  text-align: center;
+  text-decoration: underline;
 }
 
+p {
+  border: 1px solid black;
+  padding: 10px;
+}
 
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  font-size: 500%;
-  color: black;
-  text-align: center;
+  background-color: #062F4F;
 }
 
 li {
   float: left;
-  background-color: blue;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
 }
 
 li a {
@@ -65,4 +75,16 @@ li a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: white;
+}
+
+.active1 {
+  background-color: #B82601;
 }
