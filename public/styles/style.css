@@ -1,0 +1,68 @@
+title {
+  background-color: gray;
+  color: white;
+  padding: 10px;
+  border: 1px solid grey;
+  margin: 0 auto;
+}
+
+head {
+  margin: 0 auto;
+}
+
+body {
+  margin: 0 auto;
+}
+
+#main_header {
+  text-align: center;
+}
+
+#name {
+  background-color: gray;
+  text-align: center;
+}
+
+tr {
+  margin: 0 auto;
+  background-color: white;
+  color: black;
+  padding: 10px;
+  border: 1px solid black;
+}
+
+body {background-color: grey;
+margin: 0 auto;}
+
+
+h1 {
+  color: white;
+}
+
+li a:hover {
+  background-color: pink;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-size: 500%;
+  color: black;
+  text-align: center;
+}
+
+li {
+  float: left;
+  background-color: blue;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
